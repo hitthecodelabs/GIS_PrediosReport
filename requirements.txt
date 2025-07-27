@@ -1,0 +1,8 @@
+PyMuPDF
+python-telegram-bot
+pandas
+geopandas
+plotly
+reportlab
+Pillow
+shapely
