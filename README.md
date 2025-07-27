@@ -119,3 +119,6 @@ Las librerías principales utilizadas en este proyecto son:
 *   `Pillow`: Para el manejo de imágenes.
 *   `PyMuPDF` (fitz): Requerido para ciertas operaciones con PDF.
 *   `shapely`: Para las operaciones geométricas.
+
+## ⚖️ Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
