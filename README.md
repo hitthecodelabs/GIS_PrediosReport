@@ -28,10 +28,9 @@ Para utilizar este script, necesitarás Python 3.7 o superior. Se recomienda enc
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/GIS_PrediosReport.git
+    git clone https://github.com/hitthecodelabs/GIS_PrediosReport.git
     cd GIS_PrediosReport
     ```
-    *(Reemplaza `tu-usuario` con tu nombre de usuario de GitHub)*
 
 2.  **Crea y activa un entorno virtual (recomendado):**
     ```bash
