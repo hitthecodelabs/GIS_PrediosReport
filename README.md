@@ -104,9 +104,8 @@ success, message = generar_informe_predio_pdf(
 *   `logo_path` (str, opcional): La ruta a una imagen de logo para la portada.
 *   `map_image_path` (str, opcional): La ruta a una imagen del mapa o plano del predio.
 
-
-4. Imprimir el resultado
 ```python
+# 4. Imprimir el resultado
 if success:
     print(f"Éxito: {message}")
 else:
