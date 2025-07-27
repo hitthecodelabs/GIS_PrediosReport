@@ -93,9 +93,22 @@ success, message = generar_informe_predio_pdf(
     logo_path=ruta_logo,
     map_image_path=ruta_mapa
 )
+```
 
-# 4. Imprimir el resultado
+## Parámetros de la función generar_informe_predio_pdf:
+*   `gdf` (GeoDataFrame): El GeoDataFrame cargado con los datos de los predios.
+*   `codcat` (str): El código catastral exacto del predio a reportar.
+*   `output_filename` (str): El nombre del archivo PDF que se generará.
+*   `autor` (str, opcional): El nombre del autor o la compañía que elabora el informe.
+*   `fecha_reporte` (datetime/str, opcional): La fecha para el informe. Si se omite, se usa la fecha actual.
+*   `logo_path` (str, opcional): La ruta a una imagen de logo para la portada.
+*   `map_image_path` (str, opcional): La ruta a una imagen del mapa o plano del predio.
+
+
+4. Imprimir el resultado
+```python
 if success:
     print(f"Éxito: {message}")
 else:
     print(f"Fallo: {message}")
+```
