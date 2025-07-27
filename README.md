@@ -111,3 +111,11 @@ if success:
 else:
     print(f"Fallo: {message}")
 ```
+## 📚 Dependencias
+Las librerías principales utilizadas en este proyecto son:
+*   `geopandas`: Para leer y manipular datos geoespaciales.
+*   `pandas`: Dependencia de GeoPandas para el manejo de datos tabulares.
+*   `reportlab`: Para la generación de los documentos PDF.
+*   `Pillow`: Para el manejo de imágenes.
+*   `PyMuPDF` (fitz): Requerido para ciertas operaciones con PDF.
+*   `shapely`: Para las operaciones geométricas.
